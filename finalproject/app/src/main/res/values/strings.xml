@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Project</string>
+    <string name="msg1">Cafe House</string>
+    <string name="msg2">Skip</string>
+    <string name="but1">Login</string>
+    <string name="but2">Register</string>
+    <string name="but3">Cancel</string>
+    <string name="but4">Order</string>
+    <string name="mail">Email</string>
+    <string name="pass">Password</string>
+    <string name="back">Back</string>
+    <string name="_549rs">549Rs</string>
+    <string name="rs">459</string>
+    <string name="msg3">Veg Food</string>
+
+</resources>

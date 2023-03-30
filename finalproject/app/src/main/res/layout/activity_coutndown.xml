@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".coutndown"
+    android:background="@drawable/time"
+    android:onClick="dialogbox">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="You will get your order in...."
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:background="@color/black"
+        android:textStyle="bold"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="30"
+            android:background="@drawable/countdownstyle"
+            android:padding="15dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:text=" : "
+            android:background="@drawable/countdownstyle"
+            android:padding="15dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3"
+            android:text="10"
+            android:background="@drawable/countdownstyle"
+            android:padding="15dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#020202"
+        android:text="Menu"
+        android:id="@+id/bt_menu"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold">
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:layout_marginTop="50dp"
+        android:hint=" Touch for entering table number "
+        android:textSize="24sp"
+        android:textColorHint="#706B6B"
+        android:background="@color/black"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
